@@ -51,8 +51,8 @@ class PolyTreeNode
         nil
     end
 
-    def bfs(target) 5
-        return self if self.value == target
+    def bfs(target)
+        return self if self == nil
         array = [self] 
 
         until array.empty?
